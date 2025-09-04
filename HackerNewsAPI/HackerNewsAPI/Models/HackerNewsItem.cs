@@ -4,7 +4,7 @@ namespace HackerNewsAPI.Models
 {
     public class HackerNewsItem
     {
-        [JsonPropertyName("id")]
+        [JsonPropertyName("id")]// age
         public int Id { get; set; }
 
         [JsonPropertyName("title")]
